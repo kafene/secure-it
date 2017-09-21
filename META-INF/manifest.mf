@@ -1,0 +1,82 @@
+Manifest-Version: 1.0
+
+Name: install.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: IrpLCFUams9M2mub1N9Zsw==
+SHA1-Digest: sOhSipALQykYfJutBO2gmK786/c=
+
+Name: icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: puj6c6mxkjotIO4sXlukYw==
+SHA1-Digest: DXE0Jxd0bfc9ZXZ8yGQtVlSmSN4=
+
+Name: bootstrap.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: RCX+ZkAyKxeJZ94IJe/HVQ==
+SHA1-Digest: pCyuWwLONSn8KcFa7ZkowjOKxG4=
+
+Name: harness-options.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: iWk9ggw4VVquN1/pPaLC6g==
+SHA1-Digest: Ka4K8lgQsEaTtyOjkAu5TmOh9hc=
+
+Name: locales.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: p3Qh60/6wDH/UunTuTWZjQ==
+SHA1-Digest: DBci+JD/520hUnFSB3zB1xoBE9g=
+
+Name: defaults/preferences/prefs.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1B2M2Y8AsgTpgAmY7PhCfg==
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: resources/pathfinder/lib/redirect.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: kP/ODnp7ykhDD9cvvOK7dQ==
+SHA1-Digest: 0jtYWb+/OnyEPzZNd2NgHzSVAYg=
+
+Name: resources/pathfinder/lib/storage.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: oex6A8/iI3Mv5Cuz4/Ylpg==
+SHA1-Digest: V1szx2zldVHGr8Libok76r7GnFk=
+
+Name: resources/pathfinder/lib/chrome/instances.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: V2BvxhPcdsaoO0aN/hQr7w==
+SHA1-Digest: LUyq+uUX7OIE5AjmlFEdVgF75CY=
+
+Name: resources/pathfinder/lib/chrome/net-utils.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: copMcRJghe9JgFJGpo58CA==
+SHA1-Digest: 6XLDHQ+yBURlIqdbtdZ+VXZ1TbQ=
+
+Name: resources/pathfinder/lib/chrome/services.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: IBSKKjzC2gQWz3GUW2whnw==
+SHA1-Digest: ZZh9O+9QaSa9sLPAinZVRCR3nAk=
+
+Name: resources/pathfinder/lib/connection/events.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Jthy0zx8OzPOUz5basT9Xw==
+SHA1-Digest: IZzsKpw4ElffuR1ly7l/OmLHHQo=
+
+Name: resources/secure-it/data/off.gif
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: VbKywu4w4d3VQtoklfEWTA==
+SHA1-Digest: ERPk56kw18LinNRKNjreEt/fJlk=
+
+Name: resources/secure-it/data/on.gif
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: pc5NWi28amLPntC88Ze+Pg==
+SHA1-Digest: y77wDI3xVB2c7NU9S0xL9ihzFQE=
+
+Name: resources/secure-it/lib/database.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: kmGT3Fwcx4W75gnZXHH8KA==
+SHA1-Digest: /GvWkcPpZDjuphGHttTWLwv8O0I=
+
+Name: resources/secure-it/lib/main.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: sCZRjgD/YkSwfhHMiPKZzg==
+SHA1-Digest: LhrMbMeZElRb77fnKpR9kdZP6GQ=
+

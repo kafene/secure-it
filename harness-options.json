@@ -1,0 +1,154 @@
+{
+ "check_memory": false, 
+ "enable_e10s": false, 
+ "is-sdk-bundled": false, 
+ "jetpackID": "secure-it@erikvold.com", 
+ "loader": "addon-sdk/lib/sdk/loader/cuddlefish.js", 
+ "main": "main", 
+ "mainPath": "secure-it/main", 
+ "manifest": {
+  "pathfinder/chrome/instances": {
+   "docsSHA256": null, 
+   "jsSHA256": "34df2f41e80ddc5236a133467cd95b82094351ce39ceadbf00549a314fa7b098", 
+   "moduleName": "chrome/instances", 
+   "packageName": "pathfinder", 
+   "requirements": {
+    "chrome": "chrome"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "pathfinder/chrome/net-utils": {
+   "docsSHA256": null, 
+   "jsSHA256": "d3cb7655e030079cd8429ca0f4ce30f7c6808c1e6ed089e0b419c3445dafdb8c", 
+   "moduleName": "chrome/net-utils", 
+   "packageName": "pathfinder", 
+   "requirements": {
+    "chrome": "chrome"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "pathfinder/chrome/services": {
+   "docsSHA256": null, 
+   "jsSHA256": "9a8920defa3309a6c5ac9eb35e7cd8106039fe6638ea44be5e869447586483ca", 
+   "moduleName": "chrome/services", 
+   "packageName": "pathfinder", 
+   "requirements": {
+    "chrome": "chrome"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "pathfinder/connection/events": {
+   "docsSHA256": null, 
+   "jsSHA256": "632e6a8d7e7fa0306c30286277867f97585275b8d479cb0989c996a432642212", 
+   "moduleName": "connection/events", 
+   "packageName": "pathfinder", 
+   "requirements": {
+    "sdk/event/core": "sdk/event/core", 
+    "sdk/system/events": "sdk/system/events"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "pathfinder/redirect": {
+   "docsSHA256": null, 
+   "jsSHA256": "f94c60f5d2fefe6f5eff2163b17f04f8004ba6783b8fa3274fa5e17b5533442c", 
+   "moduleName": "redirect", 
+   "packageName": "pathfinder", 
+   "requirements": {
+    "./connection/events": "pathfinder/connection/events", 
+    "chrome": "chrome", 
+    "sdk/core/disposable": "sdk/core/disposable", 
+    "sdk/core/heritage": "sdk/core/heritage", 
+    "sdk/core/namespace": "sdk/core/namespace", 
+    "sdk/url/utils": "sdk/url/utils", 
+    "sdk/util/list": "sdk/util/list"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "pathfinder/storage": {
+   "docsSHA256": null, 
+   "jsSHA256": "f9bd7a5b7f540bc8dc6bfd90d6a7d0bb9be2af5d054d23660a8fe6b0dffaf691", 
+   "moduleName": "storage", 
+   "packageName": "pathfinder", 
+   "requirements": {
+    "./chrome/instances": "pathfinder/chrome/instances", 
+    "./chrome/net-utils": "pathfinder/chrome/net-utils", 
+    "./chrome/services": "pathfinder/chrome/services", 
+    "chrome": "chrome", 
+    "sdk/core/promise": "sdk/core/promise", 
+    "sdk/self": "sdk/self", 
+    "sdk/system/unload": "sdk/system/unload"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "secure-it/database": {
+   "docsSHA256": null, 
+   "jsSHA256": "ccf1a41c87b10d813d1c485cb249adcfb6994d2f98472c48cbe9d51e6bc831b8", 
+   "moduleName": "database", 
+   "packageName": "secure-it", 
+   "requirements": {
+    "pathfinder/storage": "pathfinder/storage", 
+    "sdk/core/heritage": "sdk/core/heritage", 
+    "sdk/event/core": "sdk/event/core", 
+    "sdk/event/target": "sdk/event/target"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "secure-it/main": {
+   "docsSHA256": null, 
+   "jsSHA256": "beceabe7f59256954026dfc0ef51bd250c9e257808f4a3a8264d3b4ba22fc735", 
+   "moduleName": "main", 
+   "packageName": "secure-it", 
+   "requirements": {
+    "./database": "secure-it/database", 
+    "pathfinder/redirect": "pathfinder/redirect", 
+    "sdk/core/promise": "sdk/core/promise", 
+    "sdk/event/core": "sdk/event/core", 
+    "sdk/private-browsing": "sdk/private-browsing", 
+    "sdk/self": "sdk/self", 
+    "sdk/system/unload": "sdk/system/unload", 
+    "sdk/tabs": "sdk/tabs", 
+    "sdk/url": "sdk/url", 
+    "sdk/widget": "sdk/widget", 
+    "sdk/windows": "sdk/windows"
+   }, 
+   "sectionName": "lib"
+  }
+ }, 
+ "metadata": {
+  "addon-sdk": {
+   "description": "Add-on development made easy.", 
+   "keywords": [
+    "javascript", 
+    "engine", 
+    "addon", 
+    "extension", 
+    "xulrunner", 
+    "firefox", 
+    "browser"
+   ], 
+   "license": "MPL 2.0", 
+   "name": "addon-sdk"
+  }, 
+  "pathfinder": {
+   "author": "Erik Vold", 
+   "license": "MPL 2.0", 
+   "name": "pathfinder", 
+   "version": "1.0"
+  }, 
+  "secure-it": {
+   "author": "Erik Vold", 
+   "license": "MPL 2.0", 
+   "main": "main", 
+   "name": "secure-it", 
+   "permissions": {
+    "private-browsing": true
+   }, 
+   "version": "0.1.1"
+  }
+ }, 
+ "name": "secure-it", 
+ "parseable": false, 
+ "sdkVersion": "1.15", 
+ "staticArgs": {}, 
+ "verbose": false
+}
